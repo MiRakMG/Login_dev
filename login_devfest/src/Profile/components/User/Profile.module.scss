@@ -1,0 +1,68 @@
+$main-color:rgb(10, 39, 77);
+$secondry-color:#ffffff;
+.MainProfile {
+    height: 100vh;
+    width: 100vw;
+    background:  rgb(245, 249, 255);
+    overflow-x: hidden;
+    
+    .ProfileContainer {
+        width: 90%;
+        height: 100vh;
+        background: rgb(241, 243, 248);
+        margin: auto;
+
+        .TopPortion {
+            height: 25%;
+            width: 100%;
+            position: relative;
+
+            .UserProfileBgImage {
+                height: 80%;
+                width: 100%;
+                background: $main-color;
+            }
+
+            .UserProfileImage {
+                position: absolute;
+                height: 70%;
+                width: 10%;
+                border-radius: 50%;
+                transform: translate(50%);
+                right: 50%;
+                background:$secondry-color;
+                bottom: -5%;
+                box-shadow: 5px 5px 15px -6px rgba(0, 0, 0, 0.22);
+            }
+
+            .UserName {
+                text-align: center;
+                width: 100%;
+                position: absolute;
+                bottom: -6.5rem;
+                
+                h1 {
+                font-weight: 500;
+                font-size: 2rem;
+                }
+
+                h2 {
+                    color: #726d6d;
+                }
+
+            }
+        }
+        .BottomPortion {
+            margin: 50px;
+            
+            button {
+                margin-left: 270px;
+            }
+
+            .ContainerSett {
+            display: flex;
+            padding: 8%;
+            }
+        }
+    }
+}

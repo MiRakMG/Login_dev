@@ -9,6 +9,7 @@ const AdminLayout = () => {
             <Navbar />
             <Login />
             <Signin />
+            
         </main>
     )
 }
