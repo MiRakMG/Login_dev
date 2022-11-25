@@ -1,13 +1,10 @@
-import Login from "./components/Login";
-import Signin from "./components/Signin";
-import Navbar from "./components/Navbar/Navbar";
+import React from "react";
+import AppRouter from "./router";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Login />
-      <Signin />
+      <AppRouter />
     
     </div>
   );
